@@ -1,1 +1,3 @@
-An attempt to implement a reader for x-io (http://x-io.co.uk/) files logged to an SD card with an NGIMU. The converter in the NGIMU terminal works well and in fact I'm not sure this converter works correctly at all.
+An attempt to implement a reader for x-io (http://x-io.co.uk/) files logged to an SD card with an NGIMU. The converter in the NGIMU terminal works well and in fact I'm not sure this converter works correctly at all. Reads all of the data to memory, and decodes the OSC frames in memory as well so will choke with large files (+requires a lot more mem than the file would let you expect). Only sensor and quaternion data gets read.
+
+Written by Timo Rantalainen 2016 (tjrantal at gmail dot com). Released to the public domain.
