@@ -1,0 +1,1 @@
+An attempt to implement a reader for x-io (http://x-io.co.uk/) files logged to an SD card with an NGIMU. The converter in the NGIMU terminal works well and in fact I'm not sure this converter works correctly at all.
